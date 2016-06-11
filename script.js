@@ -1,4 +1,4 @@
-console.log('app is running')
+console.log('app is running');
 
 
 $(document).ready(function() {
@@ -9,14 +9,14 @@ $(document).ready(function() {
    });
    
    $("#resetbut").click(function(){
-       console.log('click')
+       console.log('click');
      $("#ball").removeClass();
      $("#ball").addClass("reset");
    });
 
    
    $("#red").click(function(){
-       console.log('click')
+       console.log('click');
      $("#ball").removeClass();
      $("#ball").addClass("highred");
    });
@@ -33,25 +33,25 @@ $(document).ready(function() {
    
   $('#moveleft').click(function() {
         $('#ball').animate({
-        'marginLeft' : "-=200px" //moves left
+        'marginLeft' : "-=50px" //moves left
         }, 'fast'
         );
     });
     $('#moveright').click(function() {
         $('#ball').animate({
-        'marginLeft' : "+=200px" //moves right
+        'marginLeft' : "+=50px" //moves right
         }, 'fast'
         );
     });
     $('#movedown').click(function() {
         $('#ball').animate({
-        'marginTop' : "+=200px" //moves down
+        'marginTop' : "+=50px" //moves down
         }, 'fast'
         );
     });
     $('#moveup').click(function() {
         $('#ball').animate({
-        'marginTop' : "-=200px" //moves up
+        'marginTop' : "-=50px" //moves up
         }, 'fast'
         );
     });
